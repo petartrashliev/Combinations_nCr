@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinations_Calculator.Android", "Combinations_Calculator\Combinations_Calculator.Android\Combinations_Calculator.Android.csproj", "{F3F61088-938D-466C-A2DF-64E7C73F6E67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combinations_Calculator", "Combinations_Calculator\Combinations_Calculator\Combinations_Calculator.csproj", "{D833D36C-862D-4BE5-B01E-146839558FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F61088-938D-466C-A2DF-64E7C73F6E67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F61088-938D-466C-A2DF-64E7C73F6E67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F61088-938D-466C-A2DF-64E7C73F6E67}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3F61088-938D-466C-A2DF-64E7C73F6E67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F61088-938D-466C-A2DF-64E7C73F6E67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F61088-938D-466C-A2DF-64E7C73F6E67}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D833D36C-862D-4BE5-B01E-146839558FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D833D36C-862D-4BE5-B01E-146839558FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D833D36C-862D-4BE5-B01E-146839558FE4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D833D36C-862D-4BE5-B01E-146839558FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D833D36C-862D-4BE5-B01E-146839558FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D833D36C-862D-4BE5-B01E-146839558FE4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D72B24F-9D3D-47AE-A0D2-37C5B9AF86F1}
+	EndGlobalSection
+EndGlobal

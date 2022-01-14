@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Combinations_Calculator.MainPage">
+
+    <StackLayout BackgroundColor="white">
+
+        <Grid 
+            
+             BackgroundColor="white" 
+             Padding="0" 
+             HeightRequest="125" >
+
+            <Grid BackgroundColor="white" Margin="120,0,120,38">
+                <Image 
+                            Source="logo.png"  >
+                </Image>
+            </Grid>
+
+            <Grid BackgroundColor="white" Margin="130,103, 120,6">
+                <Image 
+                            Source="cnt.png"  >
+                </Image>
+            </Grid>
+
+        </Grid>
+
+
+        <Grid 
+            BackgroundColor="Gray"  
+            HeightRequest="1" 
+            Margin="0,0,0,0">
+        </Grid>
+
+        <Grid BackgroundColor="white" Margin="0,-5,0,0" HeightRequest="80">
+            <Grid BackgroundColor="White" Margin="90,8,80,5" >
+                <Image 
+                            Source="fr.png"  >
+                </Image>
+            </Grid>
+        </Grid>
+
+        <Grid BackgroundColor="white"  HeightRequest="50" Margin="0,6,0,0" >
+            <Grid BackgroundColor="white" Margin="40,0, 220,0" HeightRequest="50">
+                <Label 
+                            Text="(objects) = " 
+                            FontSize="20" 
+                            Margin="50,13,0,0" 
+                            TextColor="black" 
+                            FontAttributes="None"/>
+
+                <Label 
+                            Text="n" 
+                            FontSize="20" 
+                            Margin="37,13,0,0" 
+                            TextColor="black" 
+                            FontAttributes="Bold"/>
+            </Grid>
+
+            <Grid BackgroundColor="white" Margin="195,0,80,0" HeightRequest="50">
+                <Entry 
+                                x:Name="a_1" 
+                                Placeholder="" 
+                                Keyboard="Numeric" 
+                                TextColor="black"
+                                FontAttributes="Bold"
+                                FontSize="20" 
+                                PlaceholderColor="black" 
+                                Margin="5,5,5,0"/>
+
+                <Rectangle 
+                                
+                                Stroke="black" 
+                                RadiusX="2" 
+                                RadiusY="2" 
+                                Margin="0,4,0,6"/>
+            </Grid>
+
+        </Grid>
+
+
+        <Grid BackgroundColor="white" Margin="0,5, 0,0"  HeightRequest="50">
+            <Grid BackgroundColor="white" Margin="40,0, 220,0" HeightRequest="50">
+                <Label 
+                            Text="(sample) = " 
+                            FontSize="20" 
+                            Margin="50,13,0,0" 
+                            TextColor="black" 
+                            FontAttributes="None"/>
+
+                <Label 
+                            Text="r" 
+                            FontSize="20" 
+                            Margin="37,13,0,0" 
+                            TextColor="black" 
+                            FontAttributes="Bold"/>
+            </Grid>
+
+            <Grid BackgroundColor="white" Margin="195,0,80,0" HeightRequest="50">
+                <Entry 
+                                x:Name="a_2" 
+                                Placeholder="" 
+                                Keyboard="Numeric" 
+                                TextColor="black"  
+                                FontSize="20" 
+                                FontAttributes="Bold"
+                                PlaceholderColor="black" 
+                                Margin="5,5,5,0"/>
+
+                <Rectangle 
+                                
+                                Stroke="black" 
+                                RadiusX="2" 
+                                RadiusY="2" 
+                                Margin="0,4,0,6"/>
+
+            </Grid>
+
+        </Grid>
+
+        <Grid 
+            BackgroundColor="Gray" 
+            Margin="0,8,0,0"   
+            HeightRequest="1">
+        </Grid>
+
+        <Grid BackgroundColor="white" HeightRequest="50" Margin="0,2,0,0" >
+            <Button 
+                             
+                            Clicked="OnButtonClicked"
+                            Text="Calculate" 
+                            TextColor="white" 
+                            FontAttributes="Bold" 
+                            FontSize="15" 
+                            BackgroundColor="#3FB950"  
+                            Margin="15,0,15,0" />
+        </Grid>
+
+        <Grid 
+            BackgroundColor="Gray"  
+            HeightRequest="1">
+        </Grid>
+
+        <Grid BackgroundColor="White" HeightRequest="30" Margin="0,5,0,0">
+            <Label 
+                                Text="Answer:" 
+                                FontSize="16" 
+                                Margin="16,4,0,0"
+                                TextColor="Black" 
+                                FontAttributes="Italic"/>
+        </Grid>
+
+        <Grid BackgroundColor="white" HeightRequest="189" Margin="15,-3,15,0">
+            <Rectangle 
+                                
+                                Stroke="black" 
+                                RadiusX="5" 
+                                RadiusY="5" 
+                                Margin="0,0,0,0"/>
+
+            <Grid   HeightRequest="0" Margin="5,5,5,0">
+                <Entry 
+                                x:Name="a_3" 
+                                BackgroundColor="white"
+                                Placeholder="" 
+                                Keyboard="Numeric" 
+                                TextColor="black"  
+                                FontSize="20" 
+                                IsReadOnly="True"
+                                Margin="0,0,0,130"/>
+
+                <Entry 
+                                x:Name="a_4" 
+                                BackgroundColor="white"
+                                Placeholder="" 
+                                Keyboard="Numeric" 
+                                TextColor="black"  
+                                FontSize="20" 
+                                IsReadOnly="True"
+                                Margin="0,44,0,81"/>
+
+                <Entry 
+                                x:Name="a_5" 
+                                BackgroundColor="white"
+                                Placeholder="" 
+                                Keyboard="Numeric" 
+                                TextColor="black"  
+                                FontSize="20" 
+                                IsReadOnly="True"
+                                Margin="0,94,0,35"/>
+
+                <Entry 
+                                x:Name="a_6" 
+                           
+                                Placeholder="" 
+                                BackgroundColor="white"
+                                Keyboard="Numeric" 
+                                TextColor="black"  
+                                FontSize="20" 
+                                IsReadOnly="True"
+                                Margin="0,140,0,-5"/>
+            </Grid>
+
+        </Grid>
+
+    </StackLayout>
+</ContentPage>
